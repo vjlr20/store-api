@@ -55,7 +55,13 @@ Esta API facilita la simulación de registro y gestión de datos mediante consul
     php artisan passport:install --force
     ```
 
-5. Ejecuta el servidor de artisan:
+5. Genera la llave del proyecto para su ejecución
+
+    ```bash
+    php artisan key:generate
+    ```
+
+6. Ejecuta el servidor de artisan:
 
     ```bash
     php artisan serve
